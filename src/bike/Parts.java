@@ -1,6 +1,13 @@
 package bike;
 
 public class Parts {
+    /*
+      git status
+      git add file_name
+      git commit -m "Learning"
+      git push
+     */
+
     public static void main (String[] args)
     {
         System.out.println("hello world");
@@ -10,7 +17,6 @@ public class Parts {
         System.out.println(a+10);
         System.out.println(b);
 
-        
         if (a>b)
         {
             System.out.println("a is gtreater than b");
