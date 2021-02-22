@@ -4,12 +4,12 @@ public class Duplicate {
 
     int x;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {     // args is a variable u can use anything else also
 
         System.out.println("new file ");
-        Duplicate dd = new Duplicate(); // creating object
+        Duplicate dd = new Duplicate(); // creating object of class duplicate
 
-        for(String s : args){
+        for(String s : args){          // this is telling about how main function is taking argument
             System.out.println(s);
         }
 
